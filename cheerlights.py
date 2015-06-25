@@ -13,7 +13,7 @@ cheer = parsed_json["field1"]
 print "Current color is %s" % (cheer)
 f.close()
 pyglow.all(0)
-   
+
 if cheer == "red":
     pyglow.color("red", 255)
 elif cheer == "green":
@@ -27,19 +27,18 @@ elif cheer == "white":
     pyglow.color("white", 255)
 elif cheer == "warmwhite" or cheer == "oldlace":
     pyglow.color("red", 253)
-    pyglow.color("green", 245)
-    pyglow.color("blue", 230)
+    pyglow.color("white", 255)
 elif cheer == "purple":
-    pyglow.color("red", 128)
-    pyglow.color("blue", 128)
-elif cheer == "magenta":
     pyglow.color("red", 255)
     pyglow.color("blue", 255)
+elif cheer == "magenta":
+    pyglow.color("red", 255)
+    pyglow.color("white", 150)
 elif cheer == "yellow":
     pyglow.color("yellow", 255)
 elif cheer == "orange":
     pyglow.color("orange", 255)
 elif cheer == "pink":
     pyglow.color("red", 255)
-    pyglow.color("white", 255)
+    pyglow.color("white", 190)
         
