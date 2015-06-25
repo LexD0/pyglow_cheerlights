@@ -1,5 +1,5 @@
 # pyglow_cheerlights
-Cheerlights for PiGlow 
+Cheerlights for the PiGlow 
 
 Let twitter change the color of your PiGlow.
 Uses @benleb's PyGlow module.
