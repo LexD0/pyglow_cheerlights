@@ -3,7 +3,7 @@
 
 Let twitter change the color of your PiGlow.
 
-Uses @benleb's PyGlow module.
+Uses [@benleb's PyGlow module](https://github.com/benleb/PyGlow).
 
 Send a tweet to @cheerlights to change the color.
 
